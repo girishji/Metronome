@@ -13,6 +13,16 @@
 		E397D4C12305A01A00396F75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E397D4C02305A01A00396F75 /* Assets.xcassets */; };
 		E397D4C42305A01A00396F75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E397D4C22305A01A00396F75 /* LaunchScreen.storyboard */; };
 		E397D4CF2305A01A00396F75 /* MetronomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E397D4CE2305A01A00396F75 /* MetronomeTests.swift */; };
+		E397D4EF2305B88D00396F75 /* MetronomeBar.wav in Resources */ = {isa = PBXBuildFile; fileRef = E397D4EB2305B88D00396F75 /* MetronomeBar.wav */; };
+		E397D4F02305B88D00396F75 /* MetroBar1.wav in Resources */ = {isa = PBXBuildFile; fileRef = E397D4EC2305B88D00396F75 /* MetroBar1.wav */; };
+		E397D4F12305B88D00396F75 /* MetroBeat1.wav in Resources */ = {isa = PBXBuildFile; fileRef = E397D4ED2305B88D00396F75 /* MetroBeat1.wav */; };
+		E397D4F22305B88D00396F75 /* MetronomClaves.wav in Resources */ = {isa = PBXBuildFile; fileRef = E397D4EE2305B88D00396F75 /* MetronomClaves.wav */; };
+		E397D4F42305BBF600396F75 /* metro_beat.wav in Resources */ = {isa = PBXBuildFile; fileRef = E397D4F32305BBF600396F75 /* metro_beat.wav */; };
+		E397D4F62305BC0100396F75 /* metro_bar.wav in Resources */ = {isa = PBXBuildFile; fileRef = E397D4F52305BC0100396F75 /* metro_bar.wav */; };
+		E397D4F82305BC1800396F75 /* metro_other.wav in Resources */ = {isa = PBXBuildFile; fileRef = E397D4F72305BC1800396F75 /* metro_other.wav */; };
+		E397D4FA2305BC2100396F75 /* metro_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = E397D4F92305BC2100396F75 /* metro_1.wav */; };
+		E397D5052305C75900396F75 /* metronomeicon1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E397D5042305C75900396F75 /* metronomeicon1.jpeg */; };
+		E397D5072305C7D000396F75 /* metroicon1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E397D5062305C7D000396F75 /* metroicon1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +46,16 @@
 		E397D4CA2305A01A00396F75 /* MetronomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetronomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E397D4CE2305A01A00396F75 /* MetronomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetronomeTests.swift; sourceTree = "<group>"; };
 		E397D4D02305A01A00396F75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E397D4EB2305B88D00396F75 /* MetronomeBar.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = MetronomeBar.wav; sourceTree = "<group>"; };
+		E397D4EC2305B88D00396F75 /* MetroBar1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = MetroBar1.wav; sourceTree = "<group>"; };
+		E397D4ED2305B88D00396F75 /* MetroBeat1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = MetroBeat1.wav; sourceTree = "<group>"; };
+		E397D4EE2305B88D00396F75 /* MetronomClaves.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = MetronomClaves.wav; sourceTree = "<group>"; };
+		E397D4F32305BBF600396F75 /* metro_beat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = metro_beat.wav; sourceTree = "<group>"; };
+		E397D4F52305BC0100396F75 /* metro_bar.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = metro_bar.wav; sourceTree = "<group>"; };
+		E397D4F72305BC1800396F75 /* metro_other.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = metro_other.wav; sourceTree = "<group>"; };
+		E397D4F92305BC2100396F75 /* metro_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = metro_1.wav; sourceTree = "<group>"; };
+		E397D5042305C75900396F75 /* metronomeicon1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = metronomeicon1.jpeg; sourceTree = "<group>"; };
+		E397D5062305C7D000396F75 /* metroicon1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = metroicon1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +82,7 @@
 				E397D4B82305A01700396F75 /* Metronome */,
 				E397D4CD2305A01A00396F75 /* MetronomeTests */,
 				E397D4B72305A01700396F75 /* Products */,
+				E397D4D92305B6C000396F75 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +98,15 @@
 		E397D4B82305A01700396F75 /* Metronome */ = {
 			isa = PBXGroup;
 			children = (
+				E397D4EA2305B88D00396F75 /* Sounds */,
 				E397D4B92305A01700396F75 /* AppDelegate.swift */,
 				E397D4BB2305A01700396F75 /* ViewController.swift */,
 				E397D4BD2305A01700396F75 /* Main.storyboard */,
 				E397D4C02305A01A00396F75 /* Assets.xcassets */,
 				E397D4C22305A01A00396F75 /* LaunchScreen.storyboard */,
 				E397D4C52305A01A00396F75 /* Info.plist */,
+				E397D5042305C75900396F75 /* metronomeicon1.jpeg */,
+				E397D5062305C7D000396F75 /* metroicon1.jpg */,
 			);
 			path = Metronome;
 			sourceTree = "<group>";
@@ -94,6 +118,28 @@
 				E397D4D02305A01A00396F75 /* Info.plist */,
 			);
 			path = MetronomeTests;
+			sourceTree = "<group>";
+		};
+		E397D4D92305B6C000396F75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E397D4EA2305B88D00396F75 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				E397D4F92305BC2100396F75 /* metro_1.wav */,
+				E397D4F72305BC1800396F75 /* metro_other.wav */,
+				E397D4F52305BC0100396F75 /* metro_bar.wav */,
+				E397D4F32305BBF600396F75 /* metro_beat.wav */,
+				E397D4EB2305B88D00396F75 /* MetronomeBar.wav */,
+				E397D4EE2305B88D00396F75 /* MetronomClaves.wav */,
+				E397D4EC2305B88D00396F75 /* MetroBar1.wav */,
+				E397D4ED2305B88D00396F75 /* MetroBeat1.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,9 +223,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E397D4F12305B88D00396F75 /* MetroBeat1.wav in Resources */,
 				E397D4C42305A01A00396F75 /* LaunchScreen.storyboard in Resources */,
 				E397D4C12305A01A00396F75 /* Assets.xcassets in Resources */,
+				E397D5052305C75900396F75 /* metronomeicon1.jpeg in Resources */,
+				E397D5072305C7D000396F75 /* metroicon1.jpg in Resources */,
+				E397D4F82305BC1800396F75 /* metro_other.wav in Resources */,
+				E397D4F22305B88D00396F75 /* MetronomClaves.wav in Resources */,
+				E397D4F42305BBF600396F75 /* metro_beat.wav in Resources */,
 				E397D4BF2305A01700396F75 /* Main.storyboard in Resources */,
+				E397D4F62305BC0100396F75 /* metro_bar.wav in Resources */,
+				E397D4F02305B88D00396F75 /* MetroBar1.wav in Resources */,
+				E397D4FA2305BC2100396F75 /* metro_1.wav in Resources */,
+				E397D4EF2305B88D00396F75 /* MetronomeBar.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
