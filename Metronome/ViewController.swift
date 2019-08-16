@@ -50,6 +50,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
+        // prevent screen from locking
+        UIApplication.shared.isIdleTimerDisabled = true
+        
         //let sound1 = Bundle.main.path(forResource: "MetronomeBar", ofType: "wav")
         //let sound2 = Bundle.main.path(forResource: "MetronomClaves", ofType: "wav")
         
