@@ -61,10 +61,14 @@ class ViewController: UIViewController {
         do {
             audioPlayer1 = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound1!))
             audioPlayer2 = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound2!))
+            
+            // play sound even when mute switch is switched on in iphone
+            try AVAudioSession.sharedInstance().setCategory(AVAudioSession.Category.playback)
+            try AVAudioSession.sharedInstance().setActive(true)
         } catch {
             NSLog("Metronome: sound related error")
         }
-    }
+     }
 
     // girish
     // make the font of top status bar white
